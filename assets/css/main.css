@@ -1,0 +1,32 @@
+/* Sobre a empresa */
+.main-title{
+    color: #333;
+    margin: 40px 0  65px 0;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 3px solid #0b3e6d;
+    position: relative;
+    width: 100%;
+    
+}
+
+.col-md-6>img{
+    border-radius: 100%;
+}
+
+.col-md-4>img{
+    border-radius: 100%;
+    width: 100%;
+    height: 50vh;
+}
+
+.col-md-4{
+    padding: 8px;
+}
+
+.carousel-inner>.carousel-item>.row>.col-md-4>img{
+    border-radius: 10%;
+    
+}
+
+

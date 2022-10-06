@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--   Bootstrap CSS -->
+
+          <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+
+         <!-- fontes-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Mochiy+Pop+One&family=Nunito+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Teko:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+     <!-- Animation.css--> 
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+       
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+        <link  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/body.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/footer.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/header.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/form.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/css/animation.css" />
+
+      
+        <title>Boat-Rio Sun Sail</title>
+      
+    </head>
+    <body>
+        <header>
+          
+            <div class="container" id="nav-container">
+                <nav class="navbar navbar-expand-lg fixed-top">
+                    <a href="#" class="navbar-brand" >
+                        <img id="logo" src="./assets/img/Riosunsail.png" alt="Rio Sun Sail Logo" class="animate__animated animate__backInDown"> Rio Sun Sail
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links" 
+                    aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                      <div class="collapse navbar-collapse" id="navbar-links">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link"  href="#home" id="home-menu">Home</a>
+                            <a class="nav-item nav-link"  href="#boat" id="Barcos-menu">Embarcações</a>
+                            <a class="nav-item nav-link"  href="#about" id="about-menu">Sobre</a>
+                            <a class="nav-item nav-link"  href="#team" id="team-menu">Equipe</a>
+                            <a class="nav-item nav-link"  href="#book" id="book-menu">Reserve</a>
+                            <a class="nav-item nav-link"  href="#contact" id="contact-menu">Informações</a>
+                        </div>
+                    </div> 
+
+
+                </nav>
+            </div>
+
+        </header>
+
+        <main>
+            <div id="home" class="container-fluid">
+
+                <img src="./assets/img/7601348_20200924104440403_1_XLARGE.jpg" class="d-block w-100" alt="Veleiro velejando no caribe" >
+
+                <!--Carrossel-embarcações-->
+                <div class="col-12">
+                    <h2 class="main-title" id="boat"> Embarcações</h2>
+                </div>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" class="img-fluid"  src="./assets/img/oceanis.webp" alt="veleiro oceanis">
+                            </div>
+                            <div class="col-md-4">
+                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" class="img-fluid" src="./assets/img/atrevida.jpg" alt="veleiro atrevida">
+                            </div>
+                            <div class="col-md-4">
+                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" class="img-fluid" src="./assets/img/paratii-2.jpg" alt="veleiro paratii 2">
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="./assets/img/cat.jpg" alt="catamarã fontaine pajot">
+                            </div>
+                            <div class="col-md-4">
+                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="./assets/img/7601348_20200924104440403_1_XLARGE.jpg" alt="veleiro aleatorio">
+                            </div>
+                            <div class="col-md-4">
+                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="./assets/img/20210801-KAM_9346.jpg" alt="veleiro terra firme">
+                            </div>
+                        </div>
+                      </div>     
+                      <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="./assets/img/20220716_151101.jpg" alt="veleiro">
+                            </div>
+                            <div class="col-md-4">
+                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="./assets/img/cata.jpg" alt="veleiro">
+                            </div>
+                            <div class="col-md-4">
+                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="./assets/img/veleiro.jpg" alt="veleiro">
+                            </div>
+                      </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                     
+            
+<!--Carrossel-Barcos  FIM-->
+              
+              <div class="container">
+                <!--Sobre-->
+                <div id="about"></div>
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="main-title"> Sobre</h2>
+                    </div>
+                    <div class="col-md-6">
+<img class="img-fluid" src="./assets/img/rs=w_1280.webp" alt="moça de braços abertos no Rio">
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <h3 class="about-title">Melhores experiências de veleiros na cidade Maravilhosa</h3>
+                        <h4>Missão</h4>
+                        <p>
+                            Nossa missão é promover experiências únicas e inesquecíveis na Cidade Maravilhosa.  
+                            Seja a bordo de um veleiro ou de outra embarcação escolhida, 
+                            a garantia é de vistas e paisagens de tirar o fôlego.
+                        </p>
+
+                        <h4>Foco:</h4>
+                        <p>
+                            Nossa missão é promover experiências únicas e inesquecíveis na Cidade Maravilhosa.  
+                            Seja a bordo de um veleiro ou de outra embarcação escolhida, 
+                            a garantia é de vistas e paisagens de tirar o fôlego.
+                        </p>
+                        <h4>Principios:</h4>
+                        <p>
+                            Nossa missão é promover experiências únicas e inesquecíveis na Cidade Maravilhosa.  
+                            Seja a bordo de um veleiro ou de outra embarcação escolhida, 
+                            a garantia é de vistas e paisagens de tirar o fôlego.
+                        </p>
+                    
+                    </div>
+                </div> 
+                    <!--Sobre FIM-->
+                    <!--Equipe-->
+                    <div id="team">
+                <div class="row">
+                    <div class="col-12">
+                        
+                        <h2 class="main-title" > Equipe</h2>
+                    </div>
+                    <div class="col-md-4">
+<img class="img-fluid" src="./assets/img/20220524_210530_02.jpg" alt="diretora de marketing">
+<h3 class="about-title">Adriana Lopes</h3>
+                        <h4>Marketing</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ex massa, luctus ut nibh non, tincidunt condimentum dolor. Sed dignissim magna ex, vel feugiat mauris ullamcorper non. Duis sit amet consequat justo. Proin porttitor pellentesque libero, sit amet blandit nibh volutpat at. Phasellus vulputate urna non imperdiet auctor. Phasellus auctor lorem felis, vel ullamcorper lorem auctor vitae. Proin sit amet erat euismod, mattis nunc in, sagittis dolor. Donec porttitor mi nooimfoisdfoisjdfon posuere rutrum. Vestibulum et venenatis leo. Nam bibendum tempor enim eu tempor. Nam ligula tellus, dignissim at orci vel, faucibus viverra odio. Vivamus non urna erat
+                            . Duis ac turpis consequat, vehicula nibh nec, luctus odio. Aenean lacus nibh, tincidunt non massa nec, pulvinar fermentum elit.
+                        </p>
+
+                    
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="./assets/img/WhatsApp2.jpeg" alt="faz tudo">
+<h3 class="about-title">Pedro Souto</h3>
+                        <h4>Faz tudo</h4>
+                        <p>
+                            Mauris consectetur consectetur urna, in tincidunt nulla fringilla et. Duis malesuada tincidunt urna, a auctor ante rutrum ut. Aliquam efficitur ex quis velit gravida eleifend. In rhoncus eu nisi et lobortis. Nam eu ultricies orci. Mauris ut vehicula turpis, nec porttitor felis. Morbi et luctus nunc. Suspendisse quis ligula tincidunt justo malesuada accumsan. Aenean a erat ac sem condimentum cursus. Donec ac luctus augue, ut pretium metus. Phasellus lacinia magna quis risus varius, ac scelerisque justo lobortis. Cras interdum scelerisque urna, sit amet malesuada orci ornare eu. Integer maximus tellus non venenatis auctor.
+                        </p>
+
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="./assets/img/WhatsApp1.jpeg" alt="dog">
+<h3 class="about-title">Mulan Lopes Souto</h3>
+                        <h4>Entreterimento</h4>
+                        <p>
+                            In venenatis leo vel justo condimentum maximus. Quisque quam enim, tempor ut aliquam ac, elementum quis neque. Vestibulum eget nunc vitae erat sollicitudin semper. In hac habitasse platea dictumst. Nullam quam turpis, semper vel odio ac, tincidunt euismod diam. Curabitur auctor tortor ac ipsum faucibus placerat. Cras nec imperdiet nibh. Nullam lacinia justo ut lorem venenatis malesuada. Nunc id venenatis dui, in faucibus felis. Aliquam eleifend augue id ipsum venenatis sollicitudin. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+               
+                    <!--Equipe FIM-->
+<!--Reserve-->
+<div class="col-12">
+    <h2 class="main-title" id="book"> Reserve</h2>
+</div>
+<form><div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Email address:</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu e-mail">
+  </div>
+  <div class="mb-3">
+    <select class="form-select" aria-label="Default select example">
+        <option selected>Escolha a embarcação</option>
+        <option value="1">Paratii 2</option>
+        <option value="2">Fontaine Pajout</option>
+        <option value="3">Oceanis 50</option>
+        <option value="3">Bruce Roberts 45</option>
+      </select>
+</div>
+<div>
+    Data: 
+    <div class="row">
+        <div class="col-md-6">
+            <label for="startDate">Inicio</label>
+            <input id="startDate" class="form-control" type="date" />
+            <span id="startDateSelected"></span>
+        </div>
+        <div class="col-md-6">
+            <label for="endDate">Saida</label>
+            <input id="endDate" class="form-control" type="date" />
+            <span id="endDateSelected"></span>
+        </div>
+    </div>
+</div>
+
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Comentários:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Reservar</button>
+  </div>
+</form>
+<!--Reserve FIM-->
+
+<!--Contato-->    
+
+<div class="col-12">
+    <h2 class="main-title" id="contact"> Informações</h2>
+</div>  
+
+<div class="row">
+    <div class="col-md-6">
+        
+        <h4> Endereço:</h4>
+        <p>Al. Floriano Peixoto, 370 - Urca, Rio de Janeiro - RJ, 22291-090</p>
+        <h5>Horario de funcionamento:</h5>
+        <div class="row">
+            <div class="col-md-6">
+            <p>Segunda-feira: 9:00 as 20:00</p>
+            <p>Terça-feira: 9:00 as 20:00</p>
+            <p>Quarta-feira: 9:00 as 20:00</p>
+            <p>Quinta-feira: 9:00 as 20:00</p>
+            </div>
+            <div class="col-md-6">
+            <p>Sexta-feira: 9:00 as 20:00</p>
+            <p>Sabado: 9:00 as 20:00</p>
+            <p>Domingo: 9:00 as 20:00</p>
+            </div>
+        </div>
+
+        
+            <h5> Nossas redes socias:</h5>
+        
+           <div class="redes">
+                 <div>   
+                <a  href="https://www.instagram.com/riosunsail/" target="_blank"  class="pulse">
+                  <i class="fa-brands fa-instagram"></i>   Instagram</a>
+                </div>
+                <div>
+                <a href="https://www.airbnb.com.br/experiences/157854" target="_blank" class="pulse"  >
+                    <i class="fa-brands fa-airbnb"></i>   Airbnb</a>
+                </div>
+                <div>
+                <a href="https://www.facebook.com/RioSunSail" target="_blank"  class="pulse" >
+                  <i class="fa-brands fa-facebook"></i>   Facebook</a>
+                </div>
+                <div>
+                <a href="https://www.linkedin.com/in/lvmsouto-pedro/" target="_blank" class="pulse">
+                  <i class="fa-brands fa-linkedin"></i>   Linkedin</a>
+                </div>    
+           </div>
+
+    </div>
+  
+    <div class="col-md-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.178977586198!2d-43.162050885033636!3d-22.943634784993073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x998132a40c5481%3A0xa3f761b80df6aeff!2sRio%20Sun%20Sail!5e0!3m2!1spt-BR!2sbr!4v1661439155711!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
+
+    </div>
+</div>  
+
+
+<!--Contato Fim-->
+
+
+
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Veleiro Oceanis</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img width="100%" src="./assets/img/oceanis.webp">
+            <br><br>
+            <h6> O veleiro ideal para o seu relaxamento</h6>
+           <p> O Oceanis 51.1 é espaçoso, elegante, inteligentemente projetado, veloz e revisa de forma virtuosa o conceito de barco de cruzeiro.</p>
+
+           <p>Com suas linhas precisas, um novo casco quinado e um plano de convés com estilo,
+o Oceanis 51.1 é o primeiro da sua geração.</p>
+
+            <p>Um terço do comprimento do casco conta agora com uma quina no costado. Além do impacto na estética  e no equilíbrio das linhas, este novo casco permite um aumento do volume interior, permitindo novas opções de arranjo para um barco deste tamanho.Enfatizando a precisão de suas linhas de cruzeiro, o casco é pura alegria em movimento além de valorizar a segurança. O cockpit espaçoso, com diversas áreas de banho de sol assim como uma plataforma de popa, oferece um conforto verdadeiro.</p>
+       
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+          <button type="button" class="btn btn-primary"  data-bs-dismiss="modal" >Reservar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Fim-->
+
+   
+
+              
+
+</div>
+    </div>
+    </main>
+        <footer>
+ <div class="col-12">           
+<h5> Desenvolvido por: <a href="https://github.com/Souto-Pedro"> Pedro L. V. M. Souto</a></h5>
+
+</div>
+        </footer>
+         <!--   Bootstrap JS -->
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+         crossorigin="anonymous"></script>
+
+        <!-- Botão do whats app-->
+        
+        <a href="https://wa.me/5521982616699"
+        style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+        z-index:1000;" target="_blank">
+        <i style="margin-top:16px" class="fa fa-whatsapp" ></i>
+        </a>
+    </body>
+
+</html>

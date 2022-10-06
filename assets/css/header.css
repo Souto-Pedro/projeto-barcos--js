@@ -1,0 +1,44 @@
+header, .navbar{
+    background-color: aliceblue;
+   
+}
+
+header>.container{
+    padding: 0;
+}
+
+#logo{
+    width: 75px;
+    border-radius: 100%;
+}
+
+.navbar-brand{
+    padding: 0;
+    color:navy;
+    font-size: 30px;
+    
+}
+
+.navbar-brand:hover{
+    color: navy;
+   
+
+}
+
+#navbar-links a{
+    color: navy;
+    font-size: 23px;
+    float:right;
+    padding-left: 20px;
+    
+}
+#navbar-links a:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+
+}
+
+.navbar-expanded-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}

@@ -1,0 +1,50 @@
+.pulse {
+    animation: pulse 0.7s infinite;
+    margin: 0 auto;
+    
+    margin-top: 20px;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+     color: #0b3e6d;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+      -webkit-filter: brightness(100%);
+    }
+    100% {
+      -webkit-transform: scale(1.2);
+      -webkit-filter: brightness(200%);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      filter: brightness(100%);
+    }
+    100% {
+      transform: scale(1.2);
+      filter: brightness(200%);
+    }
+  } 
+  
+  .fade {
+      width:auto;
+      height: auto;
+      -webkit-animation: fade 4s linear forwards;
+      animation: fade 4s linear forwards;
+  }
+  
+  @-webkit-keyframes fade {
+    0%,100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
+  @keyframes fade {
+    0%,100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
