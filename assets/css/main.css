@@ -29,4 +29,18 @@
     
 }
 
+.barcos{
+    height: 50vh;
+    border-radius: 10%;
+    width: 33vw;
+    padding: 10px;
+  
+}
+#carrosel>div{
+    text-align: center;
+}
+   
+
+
+
 

@@ -29,6 +29,15 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         <link rel="stylesheet" type="text/css" href="./assets/css/animation.css" />
 
       
+
+        <!-- J Query-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+          <!--Slick-->
+        <link rel="stylesheet" type="text/css" href="./assets/slick/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="./assets/slick/slick/slick-theme.css"/>
+
+      
         <title>Boat-Rio Sun Sail</title>
       
     </head>
@@ -69,70 +78,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                 <img src="./assets/img/7601348_20200924104440403_1_XLARGE.jpg" class="d-block w-100" alt="Veleiro velejando no caribe" >
 
                 <!--Carrossel-embarcações-->
-                <div class="col-12">
-                    <h2 class="main-title" id="boat"> Embarcações</h2>
+                <div id="carrosel">
+
+
                 </div>
-
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" class="img-fluid"  src="./assets/img/oceanis.webp" alt="veleiro oceanis">
-                            </div>
-                            <div class="col-md-4">
-                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" class="img-fluid" src="./assets/img/atrevida.jpg" alt="veleiro atrevida">
-                            </div>
-                            <div class="col-md-4">
-                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" class="img-fluid" src="./assets/img/paratii-2.jpg" alt="veleiro paratii 2">
-                            </div>
-                        </div>
-                      </div>
-
-                      <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="./assets/img/cat.jpg" alt="catamarã fontaine pajot">
-                            </div>
-                            <div class="col-md-4">
-                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="./assets/img/7601348_20200924104440403_1_XLARGE.jpg" alt="veleiro aleatorio">
-                            </div>
-                            <div class="col-md-4">
-                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="./assets/img/20210801-KAM_9346.jpg" alt="veleiro terra firme">
-                            </div>
-                        </div>
-                      </div>     
-                      <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="./assets/img/20220716_151101.jpg" alt="veleiro">
-                            </div>
-                            <div class="col-md-4">
-                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="./assets/img/cata.jpg" alt="veleiro">
-                            </div>
-                            <div class="col-md-4">
-                                <img data-bs-toggle="modal" data-bs-target="#exampleModal" src="./assets/img/veleiro.jpg" alt="veleiro">
-                            </div>
-                      </div>
-                    </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-                     
+               
             
-<!--Carrossel-Barcos  FIM-->
+                <!--Carrossel-Barcos  FIM-->
               
               <div class="container">
                 <!--Sobre-->
@@ -383,6 +335,12 @@ o Oceanis 51.1 é o primeiro da sua geração.</p>
         z-index:1000;" target="_blank">
         <i style="margin-top:16px" class="fa fa-whatsapp" ></i>
         </a>
+
+        <!--Carrosel-->
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+        <script src="/assets/JavaScript/boats.js"></script>
     </body>
 
 </html>
