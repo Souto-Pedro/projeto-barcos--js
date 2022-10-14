@@ -8,9 +8,9 @@ body{
 .row{
     margin: 0;
 }
-.container{
+/* .container{
     padding: 70px 0;
-}
+} */
 
 p,li{
     color:#444;
