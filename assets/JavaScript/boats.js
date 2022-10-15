@@ -1,6 +1,7 @@
-// const carouselCatalogoItems = document.getElementById('carouselCatalogoItems');
-// const modalCatalogos = new bootstrap.Modal('#modalCatalogos', {})
-
+const spin =document.getElementById('spin')
+setTimeout(()=>{
+    spin.style.display="none"
+}, 2000)
 
 
 const boats = {
@@ -93,15 +94,23 @@ const modalBodyElement =document.getElementById('modal-body')
 function modal(barcos){
 
     const obj = boats[barcos.id]
-   
-    modalBodyElement.innerHTML = `<img width="100%" src="${obj.img}"
-    <br><br>
-    <h5>${obj.valor}</h5>
-    <br><br>
-    <p>${obj.descricao}</p>
-    `
+    modalNameElement.innerHTML=""
+    modalBodyElement.innerHTML =`<div class="placeholder"></div>
+    <div class="placeholder"></div>`
+    
 
-    modalNameElement.innerHTML = `<h5>${obj.nome}</h5>`
+    setTimeout(()=>{
+
+        modalBodyElement.innerHTML = `<img width="100%" src="${obj.img}"
+        <br><br>
+        <h5>${obj.valor}</h5>
+        <br><br>
+        <p>${obj.descricao}</p>
+        `
+        modalNameElement.innerHTML = `<h5>${obj.nome}</h5>`
+
+    }, 1500);
+ 
      }
 
 
@@ -138,9 +147,21 @@ $('#carrosel').slick({
           slidesToShow: 1,
           slidesToScroll: 1
         }
-      }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
+      } 
     ]
   });
+
+  var currentTime = new Date().getHours();
+if (6 <= currentTime && currentTime < 12) {
+
+    document.body.style.backgroundColor = "white";
+
+}else if (12 <= currentTime && currentTime < 18) {
+
+    document.body.style.backgroundColor = "smokewhite";
+
+}else {
+
+    document.body.style.backgroundColor = "#dcf5f5";
+
+}
